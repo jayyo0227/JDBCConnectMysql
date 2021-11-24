@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JDBC Connecter</string>
+
+    <string name="setting">設定</string>
+
+    <string name="setting_connect">連線設定</string>
+    <string name="setting_connect_ip">主機IP</string>
+    <string name="setting_connect_port">Port</string>
+    <string name="setting_connect_database">資料庫</string>
+    <string name="setting_connect_user">使用者</string>
+    <string name="setting_connect_password">資料庫密碼</string>
+
+    <string name="connect">開始連線</string>
+    <string name="connect_loading">連結資料庫中……</string>
+
+</resources>

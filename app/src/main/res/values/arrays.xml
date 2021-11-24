@@ -1,0 +1,73 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="settings_connect_port">
+        <item>3306</item>
+        <item>8080</item>
+    </string-array>
+
+    <string-array name="settings_boolean">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+    <string-array name="settings_Size">
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>32</item>
+        <item>38</item>
+        <item>42</item>
+        <item>48</item>
+    </string-array>
+
+    <string-array name="settings_1_to_9">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="settings_A_to_G">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+    </string-array>
+
+    <string-array name="settings_printMachineType">
+        <item>TP-805</item>
+        <item>TP-809</item>
+        <item>PAT-120</item>
+    </string-array>
+
+    <string-array name="settings_connectionType">
+        <item>USB</item>
+        <item>藍芽</item>
+        <item>Wifi</item>
+    </string-array>
+
+    <string-array name="settings_printstatus">
+        <item>結帳單</item>
+        <item>後臺單</item>
+        <item>結帳&amp;後臺</item>
+    </string-array>
+
+    <string-array name="settings_layout_gridview">
+        <item>文字</item>
+        <item>圖片+文字</item>
+    </string-array>
+
+    <string-array name="settings_print_lable_size">
+        <item>40 * 25</item>
+        <!--<item>30 * 25</item>-->
+    </string-array>
+
+</resources>

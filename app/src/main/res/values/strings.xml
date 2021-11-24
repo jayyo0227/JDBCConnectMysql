@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JDBC Connect Mysql</string>
+
+    <string name="comfirm">確定</string>
+    <string name="cancel">取消</string>
+
+    <string name="reConnect">重新連線</string>
+
+    <string name="dlg_conn_title">連線設定</string>
+    <string name="dlg_conn_ip">主機IP</string>
+    <string name="dlg_conn_port">Port(預設3306)</string>
+    <string name="dlg_conn_database">Database</string>
+    <string name="dlg_conn_user">User</string>
+    <string name="dlg_conn_password">Password</string>
+
+    <string name="dlg_conn_ip_default">192.168.1.10</string>
+    <string name="dlg_conn_port_default">3306</string>
+    <string name="dlg_conn_database_default">mysql</string>
+    <string name="dlg_conn_user_default">root</string>
+</resources>
