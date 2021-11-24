@@ -19,36 +19,36 @@ public class JDBConnecter {
 
     private static Connection connection;
 
-    public static void dbThread() {
-        StrictMode.setThreadPolicy(new StrictMode.
-                ThreadPolicy.Builder().
-                build());
-        StrictMode.setVmPolicy(new StrictMode.
-                VmPolicy.Builder().
-                build());
-    }
-
-//    public void dbThread() {
-//        try {
-//            StrictMode.setThreadPolicy(new StrictMode.
-//                    ThreadPolicy.
-//                    Builder().
-//                    detectDiskReads().
-//                    detectDiskWrites().
-//                    detectNetwork().
-//                    penaltyLog().
-//                    build());
-//            StrictMode.setVmPolicy(new StrictMode.
-//                    VmPolicy.
-//                    Builder().
-//                    detectLeakedSqlLiteObjects().
-//                    penaltyLog().
-//                    penaltyDeath().
-//                    build());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+//    public static void dbThread() {
+//        StrictMode.setThreadPolicy(new StrictMode.
+//                ThreadPolicy.Builder().
+//                build());
+//        StrictMode.setVmPolicy(new StrictMode.
+//                VmPolicy.Builder().
+//                build());
 //    }
+
+    public static void dbThread() {
+        try {
+            StrictMode.setThreadPolicy(new StrictMode.
+                    ThreadPolicy.
+                    Builder().
+                    detectDiskReads().
+                    detectDiskWrites().
+                    detectNetwork().
+                    penaltyLog().
+                    build());
+            StrictMode.setVmPolicy(new StrictMode.
+                    VmPolicy.
+                    Builder().
+                    detectLeakedSqlLiteObjects().
+                    penaltyLog().
+                    penaltyDeath().
+                    build());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     public static String connect() {
         String localTag = "connect";
